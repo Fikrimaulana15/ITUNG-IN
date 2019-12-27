@@ -10,6 +10,6 @@ To do list :
 2. Halaman Main Menu
 3. Input Pemasukkan 
 4. Halaman Tampil
-
-
 5. RESTful API for this application using node.js with MySql/MongoDB
+
+note: JANGAN LUPA DI PUSH SAMPE MYTHIC !!!
