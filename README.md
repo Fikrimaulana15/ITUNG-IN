@@ -11,4 +11,4 @@ To do list :
 4. Halaman Tampil
 
 
-5. API for this application using node.js
+5. RESTful API for this application using node.js
