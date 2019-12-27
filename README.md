@@ -1,5 +1,6 @@
 # ITUNG-IN
-This application is to calculate income money for traders
+This application is to calculate income money for traders 
+platform : Android 
 
 
 Tugas Besar PBO
