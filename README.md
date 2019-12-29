@@ -14,4 +14,4 @@ To do list :
 4. Halaman Tampil
 5. RESTful API for this application using node.js with MySql/MongoDB
 
-note: JANGAN LUPA DI PUSH SAMPE MYTHIC !!!
+note: JANGAN LUPA DI PUSH SAMPE MYTHIC !!!!
