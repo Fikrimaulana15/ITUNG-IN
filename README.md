@@ -2,6 +2,8 @@
 This application is to calculate income money for traders 
 platform : Android 
 
+Desain : 
+figma - https://www.figma.com/file/etmmgk8Yn7xf8XoCBqMOIW/Untitled?node-id=0%3A1
 
 Tugas Besar PBO
 
