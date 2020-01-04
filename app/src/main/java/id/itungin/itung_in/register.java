@@ -8,22 +8,23 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Login extends AppCompatActivity {
+public class register extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+        setContentView(R.layout.activity_register);
 
-        TextView goregister = (TextView) findViewById(R.id.pndhregister);
+        setContentView(R.layout.activity_register);
 
-        goregister.setOnClickListener(new View.OnClickListener() {
+        Button gologin = (Button) findViewById(R.id.pndhlogin);
+
+        gologin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Login.this, register.class);
+                Intent i = new Intent(register.this, Login.class);
                 startActivity(i);
             }
         });
-
     }
 }
