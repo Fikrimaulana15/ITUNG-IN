@@ -15,9 +15,7 @@ public class register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        setContentView(R.layout.activity_register);
-
-        Button gologin = (Button) findViewById(R.id.pndhlogin);
+        TextView gologin = (TextView) findViewById(R.id.pndhlogin);
 
         gologin.setOnClickListener(new View.OnClickListener() {
             @Override

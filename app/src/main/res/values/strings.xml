@@ -25,4 +25,7 @@
     <string name="menu_send">Send</string>
     <string name="itungin">ITUNG-IN</string>
     <string name="totaltxt">Total</string>
+    <string name="coba">Rp 100.000.000</string>
+    <string name="tampil_pemasukkan">Tampil Pemasukkan</string>
+    <string name="tambah_pemasukkan">Tambah Pemasukkan</string>
 </resources>
