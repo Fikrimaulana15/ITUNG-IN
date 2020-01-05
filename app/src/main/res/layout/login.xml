@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B5FFA1"
+    android:background="@color/bgcolor"
     tools:context=".Login">
 
     <TextView
@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:text="@string/judul"
+        android:textColor="@color/fcwhite"
         android:textSize="30sp"
         android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +71,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editText" />
 
             <Button
-                android:id="@+id/btnlogin"
+                android:id="@+id/btnLogin"
                 style="@style/Widget.AppCompat.Button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
@@ -92,6 +93,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:text="@string/createaccount"
+        android:textColor="@color/fcwhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"

@@ -28,4 +28,6 @@
     <string name="coba">Rp 100.000.000</string>
     <string name="tampil_pemasukkan">Tampil Pemasukkan</string>
     <string name="tambah_pemasukkan">Tambah Pemasukkan</string>
+    <string name="user_profile">USER PROFILE</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -4,145 +4,133 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B5FFA1"
+    android:background="@color/bgcolor"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/judul"
-        android:layout_width="100sp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:text="@string/itungin"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@id/logout"
-        app:layout_constraintStart_toEndOf="@id/profile"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/logout"
-        android:id="@+id/logout"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginEnd="20dp" />
-
-    <Button
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/user"
-        android:id="@+id/profile"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="20dp" />
-
     <androidx.cardview.widget.CardView
-        android:background="@drawable/roundedcard"
-        app:cardCornerRadius="10dp"
+        android:id="@+id/cardView3"
         android:layout_width="350dp"
-        android:layout_height="500dp"
-        android:layout_marginTop="52dp"
+        android:layout_height="400dp"
+        android:background="@drawable/roundedcard"
+        app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/judul"
-        app:layout_constraintVertical_bias="0.196" >
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.300">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/btmtampil2"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:background="@drawable/roundedbutton"
-                android:drawableStart="@drawable/money"
-                android:drawableLeft="@drawable/money"
-                android:gravity="center"
-                android:padding="10dp"
-                android:text="@string/tampil_pemasukkan"
-                android:textColor="@color/fontcolor"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.52"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btmtampil" />
+              <Button
+                  android:id="@+id/btmtampil"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="50dp"
+                  android:background="@drawable/roundedbutton"
+                  android:drawableStart="@drawable/money"
+                  android:drawableLeft="@drawable/money"
+                  android:gravity="center"
+                  android:padding="10dp"
+                  android:text="@string/tampil_pemasukkan"
+                  android:textColor="@color/fontcolor"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/btntambah" />
 
-            <Button
-                android:id="@+id/btmtampil"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:background="@drawable/roundedbutton"
-                android:drawableStart="@drawable/money"
-                android:drawableLeft="@drawable/money"
-                android:gravity="center"
-                android:padding="10dp"
-                android:text="@string/tampil_pemasukkan"
-                android:textColor="@color/fontcolor"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btntambah" />
+              <TextView
+                  android:id="@+id/textView5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="52dp"
+                  android:layout_marginLeft="52dp"
+                  android:layout_marginTop="30dp"
+                  android:text="@string/totaltxt"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.0"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="52dp"
-                android:layout_marginLeft="52dp"
-                android:layout_marginTop="30dp"
-                android:text="@string/totaltxt"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+              <TextView
+                  android:id="@+id/textView6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:text="@string/coba"
+                  android:textSize="24sp"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.502"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="@string/coba"
-                android:textSize="24sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.502"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+              <View
+                  android:id="@+id/view"
+                  android:layout_width="250dp"
+                  android:layout_height="1dp"
+                  android:layout_marginTop="28dp"
+                  android:background="@color/fontcolor"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
-            <View
-                android:id="@+id/view"
-                android:layout_width="250dp"
-                android:layout_height="1dp"
-                android:layout_marginTop="28dp"
-                android:background="@color/fontcolor"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-            <Button
-                android:id="@+id/btntambah"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:background="@drawable/roundedbutton"
-                android:drawableStart="@drawable/money"
-                android:drawableLeft="@drawable/money"
-                android:gravity="center"
-                android:padding="10dp"
-                android:text="@string/tambah_pemasukkan"
-                android:textColor="@color/fontcolor"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+              <Button
+                  android:id="@+id/btntambah"
+                  android:layout_width="250dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="50dp"
+                  android:background="@drawable/roundedbutton"
+                  android:drawableStart="@drawable/money"
+                  android:drawableLeft="@drawable/money"
+                  android:gravity="center"
+                  android:padding="10dp"
+                  android:text="@string/tambah_pemasukkan"
+                  android:textColor="@color/fontcolor"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/view" />
+          </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+          android:id="@+id/profile"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_marginStart="30dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginTop="30dp"
+          android:background="@drawable/user"
+          app:layout_constraintEnd_toStartOf="@+id/textView"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <Button
+          android:id="@+id/logout"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginEnd="20dp"
+          android:layout_marginRight="30dp"
+          android:background="@drawable/logout"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.904"
+          app:layout_constraintStart_toEndOf="@+id/textView"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/textView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="112dp"
+          android:text="ITUNG-IN"
+          android:textColor="@color/fcwhite"
+          android:textSize="30sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

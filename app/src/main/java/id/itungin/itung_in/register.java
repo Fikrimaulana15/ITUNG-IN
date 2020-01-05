@@ -24,5 +24,15 @@ public class register extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button gomain = (Button) findViewById(R.id.btnLogin);
+
+        gomain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(register.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }
