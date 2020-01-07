@@ -43,5 +43,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button Tampil = (Button) findViewById(R.id.btntampil);
+
+        Tampil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Tampil.class);
+                startActivity(i);
+            }
+        });
     }
 }
