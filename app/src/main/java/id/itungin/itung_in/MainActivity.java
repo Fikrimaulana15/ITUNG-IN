@@ -1,6 +1,7 @@
 package id.itungin.itung_in;
 
 import androidx.appcompat.app.AppCompatActivity;
+import id.itungin.itung_in.login.Login;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Tambah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, Tambah.class);
+                Intent i = new Intent(MainActivity.this, id.itungin.itung_in.tambah.Tambah.class);
                 startActivity(i);
             }
         });
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         Tampil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, Tampil.class);
+                Intent i = new Intent(MainActivity.this, id.itungin.itung_in.tampil.Tampil.class);
                 startActivity(i);
             }
         });

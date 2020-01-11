@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bgcolor"
-    tools:context=".Login">
+    tools:context=".login.Login">
 
     <TextView
         android:id="@+id/Judul"
@@ -40,7 +40,7 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/edt_username"
                 style="@style/Widget.AppCompat.AutoCompleteTextView"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
@@ -57,10 +57,9 @@
                 tools:visibility="visible" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/edt_password"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="@string/password"
                 android:importantForAutofill="no"
@@ -68,7 +67,7 @@
                 android:textColorHint="@color/fontcolor"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText" />
+                app:layout_constraintTop_toBottomOf="@+id/edt_username" />
 
             <Button
                 android:id="@+id/btnLogin"
@@ -81,8 +80,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText2"
-                app:layout_constraintVertical_bias="0.378" />
+                app:layout_constraintTop_toBottomOf="@+id/edt_password"
+                app:layout_constraintVertical_bias="0.879" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

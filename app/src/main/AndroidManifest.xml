@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TampilPerHari"></activity>
-        <activity android:name=".Tampil" />
-        <activity android:name=".Tambah" />
+        <activity android:name=".tampilperhari.TampilPerHari"></activity>
+        <activity android:name=".tampil.Tampil" />
+        <activity android:name=".tambah.Tambah" />
         <activity android:name=".Profile" />
         <activity android:name=".MainActivity" />
         <activity android:name=".register" />
-        <activity android:name=".Login">
+        <activity android:name=".login.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
