@@ -19,7 +19,7 @@ public class TampilPerHari extends AppCompatActivity {
     private RecyclerView rvView;
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
-    private ArrayList<String> dataSet;
+    private ArrayList<DataTampilPerhari> dataSet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,17 +56,17 @@ public class TampilPerHari extends AppCompatActivity {
 
     private void initDataset() {
 
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
-        dataSet.add("Rp 10.000.000");
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+
 
     }
 
