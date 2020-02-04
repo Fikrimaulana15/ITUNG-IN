@@ -62,9 +62,9 @@ public class TampilPerHari extends AppCompatActivity {
         dataSet.add(new DataTampilPerhari("10000","13:00"));
         dataSet.add(new DataTampilPerhari("10000","13:10"));
         dataSet.add(new DataTampilPerhari("10000","13:30"));
-        dataSet.add(new DataTampilPerhari("10000","14:15"));
-        dataSet.add(new DataTampilPerhari("10000","15:30"));
-        dataSet.add(new DataTampilPerhari("10000","16:00"));
+        dataSet.add(new DataTampilPerhari("10000","14:30"));
+        dataSet.add(new DataTampilPerhari("10000","15:20"));
+        dataSet.add(new DataTampilPerhari("10000","17:00"));
 
 
     }
