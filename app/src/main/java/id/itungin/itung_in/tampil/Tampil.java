@@ -66,7 +66,7 @@ public class Tampil extends AppCompatActivity {
         dataSet.add("17/01/2020");
         dataSet.add("18/01/2020");
         dataSet.add("19/01/2020");
-        dataSet.add("21/01/2020");
+        dataSet.add("20/01/2020");
     }
 
 
