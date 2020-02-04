@@ -1,18 +1,17 @@
 package id.itungin.itung_in.tampilperhari;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import id.itungin.itung_in.R;
-import id.itungin.itung_in.tampil.RecyclerViewAdapter;
-import id.itungin.itung_in.tampil.Tampil;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import java.util.ArrayList;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import id.itungin.itung_in.R;
+import id.itungin.itung_in.tampil.Tampil;
 
 public class TampilPerHari extends AppCompatActivity {
 
@@ -56,16 +55,16 @@ public class TampilPerHari extends AppCompatActivity {
 
     private void initDataset() {
 
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
-        dataSet.add(new DataTampilPerhari("1000000","10:10"));
+        dataSet.add(new DataTampilPerhari("10000","10:10"));
+        dataSet.add(new DataTampilPerhari("10000","11:15"));
+        dataSet.add(new DataTampilPerhari("10000","11:20"));
+        dataSet.add(new DataTampilPerhari("10000","12:30"));
+        dataSet.add(new DataTampilPerhari("10000","13:00"));
+        dataSet.add(new DataTampilPerhari("10000","13:10"));
+        dataSet.add(new DataTampilPerhari("10000","13:30"));
+        dataSet.add(new DataTampilPerhari("10000","14:15"));
+        dataSet.add(new DataTampilPerhari("10000","15:30"));
+        dataSet.add(new DataTampilPerhari("10000","16:00"));
 
 
     }

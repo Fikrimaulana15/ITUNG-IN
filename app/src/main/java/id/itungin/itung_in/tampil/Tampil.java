@@ -1,17 +1,17 @@
 package id.itungin.itung_in.tampil;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import id.itungin.itung_in.MainActivity;
-import id.itungin.itung_in.R;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import java.util.ArrayList;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import id.itungin.itung_in.MainActivity;
+import id.itungin.itung_in.R;
 
 public class Tampil extends AppCompatActivity {
 
@@ -58,15 +58,15 @@ public class Tampil extends AppCompatActivity {
     private void initDataset() {
 
         dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
-        dataSet.add("11/01/2020");
+        dataSet.add("12/01/2020");
+        dataSet.add("13/01/2020");
+        dataSet.add("14/01/2020");
+        dataSet.add("15/01/2020");
+        dataSet.add("16/01/2020");
+        dataSet.add("17/01/2020");
+        dataSet.add("18/01/2020");
+        dataSet.add("19/01/2020");
+        dataSet.add("20/01/2020");
     }
 
 

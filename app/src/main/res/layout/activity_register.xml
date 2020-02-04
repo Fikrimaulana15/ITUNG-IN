@@ -41,7 +41,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btn_Register"
                 style="@style/Widget.AppCompat.Button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
@@ -50,10 +50,10 @@
                 android:textColor="#646262"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/edt_password" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_password" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/tv_name"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -68,7 +68,7 @@
                 tools:ignore="LabelFor" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/tv_username"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -79,11 +79,11 @@
                 android:textColor="#99444343"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText3"
+                app:layout_constraintTop_toBottomOf="@+id/tv_name"
                 tools:ignore="LabelFor" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/tv_email"
                 style="@style/Widget.AppCompat.AutoCompleteTextView"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
@@ -95,11 +95,11 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText4"
+                app:layout_constraintTop_toBottomOf="@+id/tv_username"
                 tools:visibility="visible" />
 
             <EditText
-                android:id="@+id/edt_password"
+                android:id="@+id/tv_password"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -109,13 +109,13 @@
                 android:inputType="textPassword"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_email" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
     <TextView
-        android:id="@+id/pndhlogin"
+        android:id="@+id/txtPindahLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
